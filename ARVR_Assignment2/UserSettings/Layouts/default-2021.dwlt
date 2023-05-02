@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 997
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Inspector
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 104
+  controlID: 106
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 542
     height: 947
-  m_MinSize: {x: 276, y: 71}
-  m_MaxSize: {x: 4001, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 14}
   m_Panes:
   - {fileID: 14}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 23
+  controlID: 107
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 24
+  controlID: 108
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -348,33 +348,33 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Challenges/01_Architecture/Prefabs
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Challenges/01_Architecture/Prefabs
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: K:\GitHub Repositories\uow-ar-vr-class\ARVR_Assignment2
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 22a00000
-    m_LastClickedID: 40994
-    m_ExpandedIDs: 00000000b4740000ce740000da760000b6770000c8770000b0980000bc98000016a0000000ca9a3b
+    scrollPos: {x: 0, y: 483}
+    m_SelectedIDs: bc770000
+    m_LastClickedID: 30652
+    m_ExpandedIDs: 000000009077000094770000967700009a7700009c7700009e770000a6770000c4770000447a000058800000568f00005c8f00000aa0000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: _Course Library
-      m_OriginalName: _Course Library
+      m_Name: Testing
+      m_OriginalName: Testing
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 29900
+      m_UserData: 31298
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
       m_OriginalEventType: 0
@@ -391,7 +391,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000b4740000
+    m_ExpandedIDs: 0000000090770000927700009477000096770000987700009a7700009c7700009e770000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -520,10 +520,10 @@ MonoBehaviour:
     m_SaveData: []
   m_SceneHierarchy:
     m_TreeViewState:
-      scrollPos: {x: 0, y: 352}
+      scrollPos: {x: 0, y: 181}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 0e4afcff164afcff1e4afcff264afcff506ffcff1a76fcff567dfcfffe81fcffbab9fcff46c1fcff8865fdff26a5fdffe209feffe409feffc20cfeffe84afeff7edbfeff762cffffd047ffffccf2ffff42f3ffff30fbffff207600008476000078a000008ea00000eaa0000064a100007ea100009ca10000b2a10000fca10000542d010068300100dc3101001a3201001e32010022320100583201007a320100dc320100f4320100
+      m_ExpandedIDs: 582ffcff5c2ffcfff459fcfffa59fcff608cfcff44b0fcffd4bcfcff4abdfcff609afeff689afeff749afeff7c9afeffce9afeff7c9bfeff1aa0fefff2a8feff5e07ffffb8f6ffff30fbffff786f000030710000347100006a710000cc710000ee7100000672000050720000dcb1000058b300008ab30000d8b300000eb400008cb40000f4b4000036b500003ab500004cb5000050b500005ab500006cb50000beb50000c4b50000ceb50000d6b50000e6b5000000b6000018b6000066b6000048dd0200e2dd0200e6dd020044de020068de0200c4ee0200e0ee0200feee0200e6ef0200caf0020008f1020038f102003cf102009cf10200b2f1020090f20200b0f2020016f30200
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -539,7 +539,7 @@ MonoBehaviour:
         m_IsRenaming: 0
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 4}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -625,7 +625,7 @@ MonoBehaviour:
       floating: 0
       collapsed: 0
       displayed: 1
-      snapOffset: {x: 0, y: 24.8}
+      snapOffset: {x: 0, y: 25}
       snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       id: unity-transform-toolbar
@@ -806,9 +806,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 4.7784214, y: -1.2351673, z: 1.0776749}
+    m_Target: {x: 1.9502697, y: 1.6724554, z: -0.9134563}
     speed: 2
-    m_Value: {x: 4.7784214, y: -1.2351673, z: 1.0776749}
+    m_Value: {x: 1.9502697, y: 1.6724554, z: -0.9134563}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -855,13 +855,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.103553325, y: 0.17211536, z: -0.018125858, w: 0.9795932}
+    m_Target: {x: -0.002890116, y: -0.4739567, z: 0.0016118417, w: -0.8808496}
     speed: 2
-    m_Value: {x: 0.105007954, y: 0.17206399, z: -0.018381592, w: 0.97930044}
+    m_Value: {x: -0.002891747, y: -0.47250688, z: 0.0016070693, w: -0.8813208}
   m_Size:
-    m_Target: 8.25129
+    m_Target: 0.81009704
     speed: 2
-    m_Value: 7.895972
+    m_Value: 0.4287806
   m_Ortho:
     m_Target: 0
     speed: 2
